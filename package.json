@@ -1,0 +1,24 @@
+{
+  "name": "celebritymatch-api",
+  "version": "1.0.0",
+  "description": "The backend API of Celebrity Match",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "Michael Tai",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^71.0.0",
+    "knex": "^0.95.4",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
