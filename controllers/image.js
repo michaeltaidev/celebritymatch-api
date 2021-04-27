@@ -19,7 +19,6 @@ const googleImageSearch = (req, res) => {
         cx: process.env.SEARCH_ENGINE_ID,
         q: req.body.input,
         searchType: 'image',
-        imgType: 'face',
         num: 1
     })
     .then(data => {
